@@ -29,8 +29,7 @@
     transform: translateX(-50%);
     max-width: 1440px;
     /* margin: 0 auto; */
-    height: 200vh;
+    /* height: 200vh; */
     overflow-x: hidden;
-    z-index: 1;
     border: 2px solid red;
 }
