@@ -1,0 +1,36 @@
+.body {
+    position: relative;
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    background-position-y: 600px;
+    margin: 0 auto;
+    height: 300vh;
+    font-family: 'Raleway', sans-serif;
+    color: White;
+    overflow-x: hidden;
+
+}
+
+.bcg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1920px;
+    height: 58%;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1440px;
+    /* margin: 0 auto; */
+    height: 200vh;
+    overflow-x: hidden;
+    z-index: 1;
+    border: 2px solid red;
+}
