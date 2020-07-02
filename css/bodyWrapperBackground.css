@@ -23,13 +23,13 @@
 }
 
 .wrapper {
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
     max-width: 1440px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     /* height: 200vh; */
     overflow-x: hidden;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
