@@ -4,15 +4,21 @@
 }
 
 .getStarted__intro {
+    width: 700px;
     margin-bottom: 25px;
 }
 
+.getStarted__welcomeInfo {
+    margin: 0 auto;
+    max-width: 550px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
 .getStarted__info {
     margin: 0 auto;
-    width: 55%;
+    max-width: 550px;
     font-size: 18px;
-    /* border: 2px solid white; */
 }
 
 .getStarted__startBtn {
