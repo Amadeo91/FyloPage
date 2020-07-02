@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.nav__list {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav__list--item {
+    padding: 0 30px;
+    display: inline-block;
+}
+
+.nav__list--link {
+
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.nav__logo {
+    height: 70px;
+}
