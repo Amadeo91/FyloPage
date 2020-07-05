@@ -1,0 +1,29 @@
+.offer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80%;
+    height: 800px;
+    margin: 130px auto 0;
+    /* border: 2px solid white; */
+
+}
+
+.offer__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.offer__img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.offer__title {
+    margin-bottom: -10px;
+}
