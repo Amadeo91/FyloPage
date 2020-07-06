@@ -21,14 +21,13 @@
 .teamPerson {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 43%;
     margin-top: 30px;
     /* border: 2px solid red; */
 }
 
 .teamPerson__img {
-    flex-basis: 50px;
+    width: 50px;
+    margin-right: 10px;
     border-radius: 50%;
 }
 
