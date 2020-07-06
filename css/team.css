@@ -1,0 +1,43 @@
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 150px;
+}
+
+.team__article {
+    flex-basis: 30%;
+    padding: 30px 40px;
+    border-radius: 10px;
+    background-color: hsl(217, 28%, 17%);
+}
+
+.team__paragraph {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.teamPerson {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 43%;
+    margin-top: 30px;
+    /* border: 2px solid red; */
+}
+
+.teamPerson__img {
+    flex-basis: 50px;
+    border-radius: 50%;
+}
+
+
+.teamPerson__name {
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.teamPerson__position {
+    font-size: 8px;
+}
