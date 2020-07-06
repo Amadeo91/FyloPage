@@ -11,10 +11,7 @@
 }
 
 .offer__item {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 400px;
-    justify-content: center;
+    width: 400px;
     text-align: center;
     /* border: 2px solid red; */
 }
@@ -24,6 +21,18 @@
     margin-bottom: 20px;
 }
 
+.offer__img--second {
+    width: 100px;
+}
+
 .offer__title {
     margin-bottom: -10px;
+}
+
+.offer__paragraph {
+    padding: 0 10px;
+}
+
+.offer__paragraph--second {
+    padding: 0 15px;
 }
