@@ -1,13 +1,13 @@
 .footer {
     position: relative;
-    padding: 150px 50px;
+    padding: 300px 50px 100px;
     margin-top: 200px;
     background-color: hsl(216, 53%, 9%);
 }
 
 .footer__logo {
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 13%;
 
 }
