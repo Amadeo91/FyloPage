@@ -30,9 +30,9 @@
     <nav class="nav">
       <img class="nav__logo" src="images/logo.svg" alt="logo fylo">
       <ul class="nav__list">
-        <li class="nav__list--item"> <a class="nav__list--link" href="#">Features</a> </li>
-        <li class="nav__list--item"> <a class="nav__list--link" href="#">Team</a> </li>
-        <li class="nav__list--item"><a class="nav__list--link" href="#">Sign In</a></li>
+        <li class="nav__list--item"> <a class="nav__list--link" href="#features">Features</a> </li>
+        <li class="nav__list--item"> <a class="nav__list--link" href="#team">Team</a> </li>
+        <li class="nav__list--item"><a class="nav__list--link" href="#getStarted">Sign In</a></li>
       </ul>
     </nav>
 
@@ -48,7 +48,7 @@
     </header>
 
     <main class="main">
-      <section class="offer">
+      <section id="features" class="offer">
 
         <article class="offer__item">
           <img class="offer__img" src="images/icon-access-anywhere.svg" alt="acces icon">
@@ -93,7 +93,7 @@
         </div>
       </section>
 
-      <section class="team">
+      <section id="team" class="team">
         <article class="team__article">
           <p class="team__paragraph">Fylo has improved our team productivy by an order of magnitude. Seince making the
             switch our team has become a well-oiled collaboration machine.</p>
@@ -138,17 +138,16 @@
 
 
   <footer class="footer">
-    <img class="footer__logo" src="images/logo.svg" alt="logo fylo">
+
     <div class="flexcontainer">
+      <div class="flexcontainer__logo"><img class="footer__logo" src="images/logo.svg" alt="logo fylo"></div>
       <section class="locationContact">
         <div class="location">
           <img class="location__img" src="images/icon-location.svg" alt="location icon">
           <p class="location__paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae omnis
             blanditiis
-            architecto voluptatum culpa, dolore amet eaque dolor quo consequatur ratione, sequi voluptates sit ducimus
-            id
-            deleniti adipisci facere delectus.</p>
+            architecto voluptatum.</p>
         </div>
         <div class="contact">
 
@@ -183,7 +182,7 @@
         </section>
       </div>
     </div>
-    <aside class="join">
+    <aside id="getStarted" class="join">
       <h5 class="join__title">Get early access today</h5>
       <p class="join__paragraph">It only takes a minute to sign up and our free starter tier is extremly generous. If
         you have any questions,
