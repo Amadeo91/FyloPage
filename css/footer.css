@@ -69,3 +69,19 @@
 .about {
     display: flex;
 }
+
+@media (max-width: 800px) {
+    .flexcontainer {
+        justify-content: center;
+    }
+
+    .flexcontainer__logo {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1280px) {
+    .flexcontainer {
+        flex-basis: 80%;
+    }
+}
