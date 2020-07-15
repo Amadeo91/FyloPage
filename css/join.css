@@ -16,6 +16,30 @@
 }
 
 .join__paragraph {
-    margin: -20px auto 0;
+    margin: -20px auto 50px;
     max-width: 70%;
+}
+
+.getStarted__form {
+    padding: 0 50px;
+}
+
+.getStarted__input {
+    padding: 10px;
+    width: 450px;
+    min-width: 200px;
+    border-radius: 50px;
+}
+
+.getStarted__button {
+    padding: 10px 35px;
+    margin-left: 15px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: hsl(194, 65%, 43%);
+}
+
+.getStarted__button:hover {
+    cursor: pointer;
 }
