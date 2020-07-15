@@ -27,6 +27,13 @@
 }
 
 .nav__logo {
+    padding-left: 30px;
     width: 250px;
     min-width: 150px;
 }
+
+/* @media (max-width: 1275px) {
+    .nav__logo {
+        padding-left: 30px;
+    }
+} */
