@@ -32,8 +32,21 @@
     min-width: 150px;
 }
 
-/* @media (max-width: 1275px) {
-    .nav__logo {
-        padding-left: 30px;
+@media (max-width: 675px) {
+    .nav__list {
+        display: none;
     }
-} */
+
+    .nav__hamburger {
+        padding-right: 80px;
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 676px) {
+    .nav__hamburger {
+        display: none;
+    }
+
+
+}
