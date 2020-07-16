@@ -84,6 +84,18 @@
 
 }
 
+@media (max-width: 375px) {
+    .js--hamburger {
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 414px) {
+    .js--hamburger {
+        padding-right: 30px;
+    }
+}
+
 @media (min-width: 676px) {
     .js--hamburger {
         display: none;
