@@ -9,22 +9,21 @@
 .locationContact {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 50%;
+    flex-basis: 65%;
 }
 
 .location {
     display: flex;
+    margin: 0 auto;
+}
+
+.location__gpsIcon {
+    margin: 18px 10px 0 0;
+    font-size: 25px;
 }
 
 .location__paragraph {
     max-width: 200px;
-    padding-right: 20px;
-}
-
-.location__img {
-    width: 25px;
-    height: 25px;
-    margin: 20px 20px;
 }
 
 .contact {
@@ -32,6 +31,11 @@
     flex-direction: column;
     margin: 0 auto;
 }
+
+.contact__info--right {
+    margin-left: 5px;
+}
+
 
 .flexcontainer {
     display: flex;
@@ -70,7 +74,13 @@
     display: flex;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 409px) {
+    .contact {
+        width: 170px;
+    }
+}
+
+@media (max-width: 848px) {
     .flexcontainer {
         justify-content: center;
     }
