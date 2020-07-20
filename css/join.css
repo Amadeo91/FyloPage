@@ -26,9 +26,9 @@
 .getStarted__input {
     padding: 10px;
     width: 450px;
+    border: none;
     border-radius: 50px;
     height: 45px;
-
 }
 
 .getStarted__button {
@@ -69,6 +69,16 @@
     }
 }
 
+@media (max-width: 454px) {
+    .getStarted__input {
+        width: 400px;
+    }
+
+    .getStarted__button {
+        width: 400px;
+    }
+}
+
 @media (max-width: 414px) {
     .getStarted__input {
         width: 370px;
@@ -76,5 +86,15 @@
 
     .getStarted__button {
         width: 370px;
+    }
+}
+
+@media (max-width: 375px) {
+    .getStarted__input {
+        width: 320px;
+    }
+
+    .getStarted__button {
+        width: 320px;
     }
 }
