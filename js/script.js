@@ -1,15 +1,16 @@
 const hamburger = document.querySelector(".js--hamburger");
-const hamburgerNav = document.querySelector(".hamburger__section")
-const closeIcon = document.querySelector(".hamburger__section--close")
+const hamburgerActive = document.querySelector(".js--hamburgerActive");
+const hamburgerNav = document.querySelector(".hamburger__section");
+const closeIcon = document.querySelector(".hamburger__section--close");
 
 
 hamburger.addEventListener('click', () => {
-    hamburgerNav.style.display = "block";
-    hamburger.style.display = "none";
+    if (hamburger.classList.toggle(".js--hamburgerActive")) {
+        hamburgerNav.style.display = "block";
+    } else(hamburgerNav.style.display = "none")
+
 })
 
 closeIcon.addEventListener('click', () => {
     hamburgerNav.style.display = "none";
-    hamburger.style.display = "block";
-
 })
